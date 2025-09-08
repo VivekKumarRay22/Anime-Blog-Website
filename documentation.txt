@@ -1,0 +1,24 @@
+This is a documentation of what I learned while building this project — whether it was adding new features, solving challenges or exploring Bootstrap classes.
+
+Bootstrap Layout & Styling:
+    1. container → Provides margin on both sides + centers the content for a clean layout.
+    2. form-control & form-label (inside contact.ejs) → Make forms more stylish and user-friendly.
+
+EJS & Bootstrap Together:
+    At first, I tried adding Bootstrap code inside my header.ejs and footer.ejs partials.
+    Later I realized it’s better to include Bootstrap in the main views files.    
+
+
+Footer Problem I Faced:
+    The issue:      The footer wasn’t staying at the bottom when the page had very little content.
+    How I fixed it: I used Bootstrap’s fixed-bottom class, which makes the footer stay in place at the bottom.
+    
+    Removed fixed-bottom and then used bg-dark to make it more consistence with the header
+    instead of copyright manually i used <%=new Date().getFullYear() %> 
+
+Best anime movies:
+    I used card to make it more readable
+
+    
+
+
