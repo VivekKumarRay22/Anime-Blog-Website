@@ -14,7 +14,8 @@ app.get("/", (req, res) => {
 
 app.post("/contact",(req,res)=>{
     console.log(req.body);
-    res.send("Your form submitted succesfully!");
+    // res.send("<h1>Your form submitted succesfully!</h1>");
+    res.redirect("/contact");
 });
 
 
